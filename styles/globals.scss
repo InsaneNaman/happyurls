@@ -1,0 +1,35 @@
+@import "./tailwind.css";
+@import "./cdn.scss";
+@import "./antd.scss";
+@import "./animista.scss";
+$link-color: #075efb;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.link {
+  color: #075efb;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.gradientTextNeonPink {
+  background: linear-gradient(0.25turn, #dc03b9, #4102e1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.b {
+  border: 2px solid black;
+}

@@ -1,0 +1,8 @@
+type happyURL {
+  shortID: String @unique
+  longURL: String
+}
+
+type Query {
+  resolveUrlByShortID(shortID: String!): happyURL
+}
